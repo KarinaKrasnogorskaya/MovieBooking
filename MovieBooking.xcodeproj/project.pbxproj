@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A9822D829C0EEA100CABA30 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9822D729C0EEA100CABA30 /* Tickets.swift */; };
 		9AD22C7A29BFA53000AA6442 /* MovieBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD22C7929BFA53000AA6442 /* MovieBookingApp.swift */; };
 		9AD22C7C29BFA53000AA6442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD22C7B29BFA53000AA6442 /* ContentView.swift */; };
 		9AD22C8129BFA53100AA6442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD22C8029BFA53100AA6442 /* Preview Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A9822D729C0EEA100CABA30 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		9AD22C7629BFA53000AA6442 /* MovieBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD22C7929BFA53000AA6442 /* MovieBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBookingApp.swift; sourceTree = "<group>"; };
 		9AD22C7B29BFA53000AA6442 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				9AD22CA529BFB0A600AA6442 /* Ticket.swift */,
+				9A9822D729C0EEA100CABA30 /* Tickets.swift */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				9AD22CA329BFA7FA00AA6442 /* TicketView.swift in Sources */,
 				9AD22C8E29BFA5D300AA6442 /* CircleBackground.swift in Sources */,
 				9AD22C9429BFA65100AA6442 /* PosterData.swift in Sources */,
+				9A9822D829C0EEA100CABA30 /* Tickets.swift in Sources */,
 				9AD22CA129BFA77700AA6442 /* util.swift in Sources */,
 				9AD22CA629BFB0A600AA6442 /* Ticket.swift in Sources */,
 				9AD22C9629BFA6B400AA6442 /* Large Button.swift in Sources */,
