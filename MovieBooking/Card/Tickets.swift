@@ -48,7 +48,7 @@ struct InfiniteStackView: View {
             Ticket(title: ticket.title, subtitle: ticket.subtitle, top: ticket.top, bottom: ticket.bottom, height: $height)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity )
-        .zIndex(Double(tickets.count) - getIndex())
+        .zIndex(getIndex() == 0 && offset > 100 ? Double(CGFloat(tickets.count) - getIndex()) - 1 : Double(CGFloat(tickets.count) - getIndex()))
         .rotationEffect(.init(degrees: getRolation(angle: 10)))
         .rotationEffect(getIndex() == 1 ? .degrees(-6) : .degrees(0))
         .rotationEffect(getIndex() == 2 ? .degrees(6) : .degrees(0))
@@ -69,19 +69,30 @@ struct InfiniteStackView: View {
                 
                 withAnimation(.easeInOut(duration: 0.3)) {
                     offset = translashion
+                    height = -offset / 5
                 }
             })
             .onEnded({ value in
                 
                 let widht = UIScreen.main.bounds.width
                 let swipedRight = offset > (widht / 2)
+                let swipeLeft = -offset > (widht / 2)
                 withAnimation(.easeInOut(duration: 0.5)) {
-                    if swipedRight {
-                        offset = widht
-                        removeAndAdd()
+                    if swipeLeft {
+                        offset = -widht
+                        removeTicket()
                     } else {
-                        offset = .zero
+                        if swipedRight {
+                            offset = widht
+                            removeAndAdd()
+                        } else {
+                            offset = .zero
+                            height = .zero
+                        }
                     }
+                    
+                    
+                  
                     
                 }
             })
@@ -115,5 +126,11 @@ struct InfiniteStackView: View {
             }
             
                           }
+    }
+    
+    func removeTicket() {
+        withAnimation(.spring()) {
+            tickets.removeFirst()
+        }
     }
 }
