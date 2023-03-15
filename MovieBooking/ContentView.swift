@@ -32,7 +32,10 @@ struct ContentView: View {
                 Text("Profile")
                     .tag(Tab.profile)
                 
+               
+                
             }
+            CustomTabBar(currentTab: $currentTab)
         }
     }
 }

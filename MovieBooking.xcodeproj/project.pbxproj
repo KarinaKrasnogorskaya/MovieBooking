@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A963CC829C21C9000E475F9 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CC729C21C9000E475F9 /* TabData.swift */; };
+		9A963CCA29C2212500E475F9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CC929C2212500E475F9 /* CustomTabBar.swift */; };
 		9A9822D829C0EEA100CABA30 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9822D729C0EEA100CABA30 /* Tickets.swift */; };
 		9AD22C7A29BFA53000AA6442 /* MovieBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD22C7929BFA53000AA6442 /* MovieBookingApp.swift */; };
 		9AD22C7C29BFA53000AA6442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD22C7B29BFA53000AA6442 /* ContentView.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		9A963CC729C21C9000E475F9 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		9A963CC929C2212500E475F9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		9A9822D729C0EEA100CABA30 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		9AD22C7629BFA53000AA6442 /* MovieBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD22C7929BFA53000AA6442 /* MovieBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBookingApp.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				9AD22C8D29BFA5D300AA6442 /* CircleBackground.swift */,
 				9AD22C8F29BFA5F900AA6442 /* StatusUI.swift */,
+				9A963CC929C2212500E475F9 /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				9AD22CA129BFA77700AA6442 /* util.swift in Sources */,
 				9AD22CA629BFB0A600AA6442 /* Ticket.swift in Sources */,
 				9AD22C9629BFA6B400AA6442 /* Large Button.swift in Sources */,
+				9A963CCA29C2212500E475F9 /* CustomTabBar.swift in Sources */,
 				9AD22C7C29BFA53000AA6442 /* ContentView.swift in Sources */,
 				9A963CC829C21C9000E475F9 /* TabData.swift in Sources */,
 				9AD22C7A29BFA53000AA6442 /* MovieBookingApp.swift in Sources */,
