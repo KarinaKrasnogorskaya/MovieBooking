@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		9A963CC829C21C9000E475F9 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CC729C21C9000E475F9 /* TabData.swift */; };
 		9A963CCA29C2212500E475F9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CC929C2212500E475F9 /* CustomTabBar.swift */; };
+		9A963CCC29C2359100E475F9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CCB29C2359100E475F9 /* HomeView.swift */; };
+		9A963CCE29C24F4800E475F9 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CCD29C24F4800E475F9 /* CustomSearchBar.swift */; };
+		9A963CD029C2528100E475F9 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CCF29C2528100E475F9 /* ScrollSection.swift */; };
+		9A963CD229C256D800E475F9 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CD129C256D800E475F9 /* BookingView.swift */; };
 		9A9822D829C0EEA100CABA30 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9822D729C0EEA100CABA30 /* Tickets.swift */; };
 		9AD22C7A29BFA53000AA6442 /* MovieBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD22C7929BFA53000AA6442 /* MovieBookingApp.swift */; };
 		9AD22C7C29BFA53000AA6442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD22C7B29BFA53000AA6442 /* ContentView.swift */; };
@@ -31,6 +35,10 @@
 /* Begin PBXFileReference section */
 		9A963CC729C21C9000E475F9 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		9A963CC929C2212500E475F9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		9A963CCB29C2359100E475F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9A963CCD29C24F4800E475F9 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		9A963CCF29C2528100E475F9 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		9A963CD129C256D800E475F9 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		9A9822D729C0EEA100CABA30 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		9AD22C7629BFA53000AA6442 /* MovieBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD22C7929BFA53000AA6442 /* MovieBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBookingApp.swift; sourceTree = "<group>"; };
@@ -111,6 +119,8 @@
 				9AD22C8D29BFA5D300AA6442 /* CircleBackground.swift */,
 				9AD22C8F29BFA5F900AA6442 /* StatusUI.swift */,
 				9A963CC929C2212500E475F9 /* CustomTabBar.swift */,
+				9A963CCD29C24F4800E475F9 /* CustomSearchBar.swift */,
+				9A963CCF29C2528100E475F9 /* ScrollSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -141,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				9AD22CA229BFA7FA00AA6442 /* TicketView.swift */,
+				9A963CCB29C2359100E475F9 /* HomeView.swift */,
+				9A963CD129C256D800E475F9 /* BookingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,14 +238,18 @@
 			files = (
 				9AD22C9229BFA61D00AA6442 /* TicketData.swift in Sources */,
 				9AD22CA329BFA7FA00AA6442 /* TicketView.swift in Sources */,
+				9A963CD029C2528100E475F9 /* ScrollSection.swift in Sources */,
 				9AD22C8E29BFA5D300AA6442 /* CircleBackground.swift in Sources */,
 				9AD22C9429BFA65100AA6442 /* PosterData.swift in Sources */,
 				9A9822D829C0EEA100CABA30 /* Tickets.swift in Sources */,
 				9AD22CA129BFA77700AA6442 /* util.swift in Sources */,
 				9AD22CA629BFB0A600AA6442 /* Ticket.swift in Sources */,
 				9AD22C9629BFA6B400AA6442 /* Large Button.swift in Sources */,
+				9A963CD229C256D800E475F9 /* BookingView.swift in Sources */,
 				9A963CCA29C2212500E475F9 /* CustomTabBar.swift in Sources */,
+				9A963CCC29C2359100E475F9 /* HomeView.swift in Sources */,
 				9AD22C7C29BFA53000AA6442 /* ContentView.swift in Sources */,
+				9A963CCE29C24F4800E475F9 /* CustomSearchBar.swift in Sources */,
 				9A963CC829C21C9000E475F9 /* TabData.swift in Sources */,
 				9AD22C7A29BFA53000AA6442 /* MovieBookingApp.swift in Sources */,
 				9AD22C9E29BFA72B00AA6442 /* RoundedButton.swift in Sources */,
