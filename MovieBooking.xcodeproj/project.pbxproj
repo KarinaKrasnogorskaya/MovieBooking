@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A80073729C36432009D887E /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80073629C36432009D887E /* SeatsView.swift */; };
 		9A963CC829C21C9000E475F9 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CC729C21C9000E475F9 /* TabData.swift */; };
 		9A963CCA29C2212500E475F9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CC929C2212500E475F9 /* CustomTabBar.swift */; };
 		9A963CCC29C2359100E475F9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963CCB29C2359100E475F9 /* HomeView.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A80073629C36432009D887E /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
 		9A963CC729C21C9000E475F9 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		9A963CC929C2212500E475F9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		9A963CCB29C2359100E475F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				9AD22CA229BFA7FA00AA6442 /* TicketView.swift */,
 				9A963CCB29C2359100E475F9 /* HomeView.swift */,
 				9A963CD129C256D800E475F9 /* BookingView.swift */,
+				9A80073629C36432009D887E /* SeatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				9A963CC829C21C9000E475F9 /* TabData.swift in Sources */,
 				9AD22C7A29BFA53000AA6442 /* MovieBookingApp.swift in Sources */,
 				9AD22C9E29BFA72B00AA6442 /* RoundedButton.swift in Sources */,
+				9A80073729C36432009D887E /* SeatsView.swift in Sources */,
 				9AD22C9C29BFA70D00AA6442 /* Circle Button.swift in Sources */,
 				9AD22C9829BFA6CD00AA6442 /* TimeButton.swift in Sources */,
 				9AD22C9029BFA5F900AA6442 /* StatusUI.swift in Sources */,
